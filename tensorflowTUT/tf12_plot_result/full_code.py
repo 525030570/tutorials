@@ -10,6 +10,7 @@ from __future__ import print_function
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
+%matplotlib qt
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
     Weights = tf.Variable(tf.random_normal([in_size, out_size]))
